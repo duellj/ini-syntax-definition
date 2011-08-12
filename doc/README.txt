@@ -5,11 +5,11 @@ Then, to make vim automatically use that syntax definition for .ini and hgrc fil
 au BufNewFile,BufRead *.ini,*/.hgrc,*/.hg/hgrc setf ini
 
 What this means is:
-	Upon creating or reading any file
-		whose name ends in .ini,
-		or whose name is .hgrc,
-		or whose name is hgrc and is in a .hg directory,
-	set the file type to "ini".
+  Upon creating or reading any file
+    whose name ends in .ini,
+    or whose name is .hgrc,
+    or whose name is hgrc and is in a .hg directory,
+  set the file type to "ini".
 
 When you set (or the auto-command sets) the file type, vim will load the syntax definition.
 
